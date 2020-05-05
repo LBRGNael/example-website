@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+    background-color: #353535;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: #C5C5C5;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+/* banniére */
+
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+} 
+
+.ban img {
+    width: 100%;
+    max-width: 100%;
+} 
+
+.inner-banner {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #000000 ;
+}
+/* Boutique */
+.boutique article h2 {
+    text-align: center;
+}
+
+.boutique {
+    margin-top: 5%;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+/* contact */
+.contact {
+    background-color: #EAEAEA;
+    margin-top: 5%;
+}
+
+.carousel {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* footer */
+
+.footer {
+    background-color: #353535;
+}
+
+#copytext {
+    color: #ffffff;
+    padding-top: 5%;
+}
